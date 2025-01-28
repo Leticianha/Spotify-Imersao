@@ -97,6 +97,7 @@ body {
     text-decoration: none;
     text-transform: none;
     padding:20px 10px;
+    cursor:pointer;
 }
 
 .library .library__button .fa{
@@ -160,6 +161,7 @@ body {
     margin-top: 12px;
     border:0;
     width: 113px;
+    cursor:pointer;
 }
 
 .sidebar .cookies{
