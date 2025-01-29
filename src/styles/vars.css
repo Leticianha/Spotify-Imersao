@@ -1,0 +1,15 @@
+/* Aula 03 */
+:root { /* raiz é como se fosse declarar estilos no css */
+    /* font */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* colors */
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,07);
+    --black-color: #000;
+    --bg-cinza-escuro: #121212;
+    --color-cinza-medio: #242424;
+    --color-branquinho: #b3b3b3;
+    --color-branco: #FFF;
+}
+

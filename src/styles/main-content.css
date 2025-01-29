@@ -1,0 +1,148 @@
+/* Aula 03 */
+/* header */
+.main-container {
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--bg-cinza-escuro);
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem; /* rem unidade de medida relativa */
+}
+
+.arrow-left, .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: var(--color-cinza-medio);
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header__search input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    color: var(--color-branco);
+    text-overflow: ellipsis; /* para nao mostrar todo o texto, ficando com ... */
+    overflow: hidden; /* nao deixa estourar o ponto, o text-overflow nao funciona sem o overflow */
+    white-space: nowrap; /* deixa o texto em uma linha so, sem quebra */
+    outline: none; /* nao criar linha/borda quando clicar no input */
+}
+
+.header__login .subscribe {
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login .login {
+    width: 100px;
+    height: 48px;
+    color: var(--black-color);
+    font-style: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Desafio 03 */
+/* .playlist-container {
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--bg-cinza-escuro);
+    height: 68vh;
+}
+
+.playlist-container .playlist__textos {
+    padding-left: 12px;
+    color: var(--color-branco);
+    flex-shrink: 0;
+}
+
+.playlist-container .playlist__textos .title {
+    margin: 25px 0 40px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.playlist-container .playlist__textos .subtitle {
+    font-size: 24px;
+    font-weight: 700;
+} */
+
+/* Resolução desafio 03 */
+/* playlist */
+.playlist-container {
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--bg-cinza-escuro);
+}
+
+.playlist {
+    margin: 24px;
+}
+
+.playlist #greeting {
+    color: var(--color-branco);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.playlist .greeting-subtitile {
+    color: var(--color-branco);
+    font-size: 24px;
+    font-weight: 700;
+}
