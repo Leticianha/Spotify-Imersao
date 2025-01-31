@@ -46,26 +46,7 @@ body {
     font-size: 14px;
 }
 
-/* Desafio 01 */
-/* .sua-biblioteca_navigation {
-    background-color: var(--bg-cinza-escuro);
-    border-radius: 8px;
-    padding: 0 0 0 16px;
-}
-
-.sua-biblioteca_navigation ul li {
-    padding: 20px 0 10px 0;
-}
-
-.fa-book {
-    margin-right: 10px;
-}
-
-.fa-plus { 
-    margin-left: 100px;
-} */
-
-/* Aula 02 e Resolução desafio 01*/
+/* Aula 02 */
 .library{
     background-color: var(--bg-cinza-escuro);
     border-radius:8px;
@@ -189,57 +170,6 @@ body {
     border-radius:20px;
 }
 
-/* Desafio 02 */
-/* .footer {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 16px 0 0 16px;
-    background: linear-gradient(to right, #85268a, #4c449e, #3767af);
-}
-
-.footer .footer__content {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 16px;
-}
-
-.footer .footer__textos {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.footer .footer__textos .text{
-    font-family: "DM Sans", sans-serif;
-    color: var(--color-branco);
-}
-
-.footer .footer__textos .title{
-    font-size: 12px;
-    font-weight: 400;
-}
-
-.footer .footer__textos .subtitle{
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.footer .footer__button button{
-    align-items: center;
-    background-color: var(--color-branco);
-    border: 1px solid #878787;
-    color: var(--black-color);
-    font-weight: bold;
-    cursor: pointer;
-    width: 170px;
-    margin: 8px;
-    padding: 10px;
-    border-radius:20px;
-} */
-
-/* Resolução desafio 02 */
 .disclaimer-premium {
     position: fixed;
     bottom: 0;
