@@ -170,6 +170,14 @@ body {
     border-radius:20px;
 }
 
+.languages .languages__button:hover {
+    transform: scale(1.04);
+}
+
+.section-playlist__content .section-playlist__button:hover {
+    transform: scale(1.04);
+}
+
 .disclaimer-premium {
     position: fixed;
     bottom: 0;
