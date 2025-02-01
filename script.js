@@ -54,7 +54,7 @@ function displayNoResults() {
                 <span class="fa-solid fa-x"></span>
             </div>
         </div>
-        <p class="no-results__subtitle">Não achamos nenhum artista ou playlist com esse nome.</p>
+        <p class="no-results__subtitle">Não achamos nenhum artista com esse nome.</p>
     </div>
     `;
     resultArtist.classList.remove('hidden');
