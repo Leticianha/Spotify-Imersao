@@ -46,6 +46,11 @@ body {
     font-size: 14px;
 }
 
+.sidebar nav ul li a:hover {
+    color: #1db954;
+    transition: color 0.3s ease;    
+}
+
 /* Aula 02 */
 .library{
     background-color: var(--bg-cinza-escuro);

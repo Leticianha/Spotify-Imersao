@@ -100,6 +100,15 @@
   cursor: pointer;
 }
 
+.header__login .subscribe:hover {
+  transform: scale(1.04);
+  color: #fff;
+}
+
+.header__login .login:hover {
+  transform: scale(1.04);
+}
+
 /* PLAYLIST */
 .playlist-container {
   height: 68vh;
